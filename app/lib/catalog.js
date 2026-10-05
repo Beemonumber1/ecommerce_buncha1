@@ -1,0 +1,17 @@
+export const catalog = [
+  { id: 'puzzle-tote', brand: 'LOEWE', name: 'Puzzle Fold Tote Mini', price: 448, category: 'Bags', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=85', colors: ['Black', 'Tan'] },
+  { id: 'leopard-bag', brand: 'GANNI', name: 'Bou Bag, Leopard', price: 219, category: 'Bags', image: 'https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=900&q=85', colors: ['Leopard'] },
+  { id: 'wool-shirt', brand: 'ACNE STUDIOS', name: 'Wool Blend Overshirt', price: 265, category: 'Clothing', image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85', colors: ['Stone', 'Navy'] },
+  { id: 'grace-bag', brand: 'A.P.C.', name: 'Grace Small Bag', price: 252, category: 'Bags', image: 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=900&q=85', colors: ['Black', 'Brown'] },
+  { id: 'runner', brand: 'NEW BALANCE', name: 'Made in UK 991v2', price: 169, category: 'Shoes', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85', colors: ['Grey', 'White'] },
+  { id: 'replica', brand: 'MAISON MARGIELA', name: 'Replica Lazy Sunday Morning', price: 102, category: 'Beauty', image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=85', colors: ['100 ml'] },
+  { id: 'satin-dress', brand: 'TOTEME', name: 'Draped Satin Midi Dress', price: 318, category: 'Clothing', image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=85', colors: ['Black', 'Ivory'] },
+  { id: 'gold-hoops', brand: 'JIL SANDER', name: 'Sculpted Gold Hoops', price: 154, category: 'Accessories', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=85', colors: ['Gold'] },
+  { id: 'leather-loafer', brand: 'GH BASS', name: 'Weejuns Leather Loafers', price: 119, category: 'Shoes', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=85', colors: ['Black', 'Wine'] },
+  { id: 'cashmere-knit', brand: 'THE ROW', name: 'Fine Cashmere Crewneck', price: 389, category: 'Clothing', image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=900&q=85', colors: ['Oat', 'Charcoal'] },
+  { id: 'sunglasses', brand: 'CELINE', name: 'Triomphe Oval Sunglasses', price: 236, category: 'Accessories', image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=85', colors: ['Tortoise', 'Black'] },
+  { id: 'silk-scarf', brand: 'BURBERRY', name: 'Archive Check Silk Scarf', price: 142, category: 'Accessories', image: 'https://images.unsplash.com/photo-1601370690183-1c7796ecec61?auto=format&fit=crop&w=900&q=85', colors: ['Archive check'] },
+  { id: 'sneaker', brand: 'SALOMON', name: 'XT-6 Technical Sneakers', price: 145, category: 'Shoes', image: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=85', colors: ['Vanilla', 'Silver'] },
+  { id: 'lip-set', brand: 'HERMÈS', name: 'Rose Hermès Mini Set', price: 86, category: 'Beauty', image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85', colors: ['Warm rose'] },
+];
+export const money = (value) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
